@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "signageos.signageos-vscode-sops",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "GitHub.vscode-pull-request-github",
+    "mikestead.dotenv",
+    "esbenp.prettier-vscode",
+    "PKief.material-icon-theme",
+    "shyykoserhiy.git-autoconfig",
+    "github.vscode-github-actions"
+  ]
+}
