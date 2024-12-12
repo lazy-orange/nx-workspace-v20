@@ -1,0 +1,35 @@
+{
+  "name": "date-time",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/date-time/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/date-time",
+        "tsConfig": "packages/date-time/tsconfig.lib.json",
+        "packageJson": "packages/date-time/package.json",
+        "main": "packages/date-time/src/index.ts",
+        "assets": ["packages/date-time/*.md"],
+        "additionalEntryPoints": ["packages/date-time/src/utils.ts"],
+        "generateExportsField": true
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    }
+  }
+}
