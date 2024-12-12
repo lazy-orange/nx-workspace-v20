@@ -39,6 +39,14 @@ jobs:
         run: npx nx report
         shell: bash
 
+      - name: Configure CI Git User
+        run: |
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git remote set-url origin https://vymarkov:$GITHUB_TOKEN@github.com/lazy-orange/nx-workspace-v20
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
       - name: Publish packages
         run: |
           npx nx run-many -t build --all
