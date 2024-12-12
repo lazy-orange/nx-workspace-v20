@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@lazy-orange/bar": ["packages/bar/src/index.ts"],
-      "@lazyorange/foo": ["packages/foo/src/index.ts"]
+      "@lazy-orange/foo": ["packages/foo/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

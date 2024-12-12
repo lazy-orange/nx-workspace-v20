@@ -21,7 +21,9 @@
         "tsConfig": "packages/foo/tsconfig.lib.json",
         "packageJson": "packages/foo/package.json",
         "main": "packages/foo/src/index.ts",
-        "assets": ["packages/foo/*.md"]
+        "assets": ["packages/foo/*.md"],
+        "additionalEntryPoints": ["packages/foo/src/utils.ts"],
+        "generateExportsField": true
       }
     },
     "nx-release-publish": {
