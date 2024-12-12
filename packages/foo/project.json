@@ -23,12 +23,6 @@
         "main": "packages/foo/src/index.ts",
         "assets": ["packages/foo/*.md"]
       }
-    },
-    "nx-release-publish": {
-      "dependsOn": ["build"],
-      "options": {
-        "packageRoot": "dist/{projectRoot}"
-      }
     }
   }
 }
