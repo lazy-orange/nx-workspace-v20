@@ -1,3 +1,3 @@
 export * from "./lib/foo";
 
-export const bar = "foo3";
+export const bar = "foo4";
