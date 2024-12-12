@@ -1,3 +1,14 @@
+## 0.7.0 (2024-12-12)
+
+### 🚀 Features
+
+- update packages/foo/src/index.ts ([bac9cbd](https://github.com/lazy-orange/nx-workspace-v20/commit/bac9cbd))
+- update packages/foo/project.json ([6591e46](https://github.com/lazy-orange/nx-workspace-v20/commit/6591e46))
+
+### ❤️ Thank You
+
+- Vitalii Markov @vymarkov
+
 ## 0.6.0 (2024-12-12)
 
 ### 🚀 Features
