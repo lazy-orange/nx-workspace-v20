@@ -48,10 +48,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Publish packages
-        run: |
-          npx nx run-many -t build --all
-          npx nx release --verbose --yes
         shell: bash
+        run: |
+          npx nx run-many -t build --all # it must be executed in order to bump version properly
+          npx nx release --verbose --yes # release must not build a package before publishing in order to have proper version
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           # FIXME: update readme doc to cover this topic
