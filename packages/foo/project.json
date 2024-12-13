@@ -15,7 +15,7 @@
   "targets": {
     "nx-release-publish": {
       "options": {
-        "packageRoot": "{workspaceRoot}/packages/{projectName}/dist"
+        "packageRoot": "packages/foo/dist"
       }
     },
     "build": {
