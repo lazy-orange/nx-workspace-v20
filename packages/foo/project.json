@@ -6,18 +6,13 @@
   "release": {
     "version": {
       "generatorOptions": {
-        "packageRoot": "dist/{projectRoot}",
+        "packageRoot": "{projectRoot}/dist",
         "currentVersionResolver": "git-tag"
       }
     }
   },
   "tags": [],
   "targets": {
-    "nx-release-publish": {
-      "options": {
-        "packageRoot": "packages/foo/dist"
-      }
-    },
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
