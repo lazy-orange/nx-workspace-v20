@@ -1,1 +1,1 @@
-export * from "./lib/date-time";
+export { dateTime as now } from "./lib/date-time";
