@@ -1,3 +1,13 @@
+## 0.2.0 (2024-12-13)
+
+### 🚀 Features
+
+- **date-time:** update exports ([539e19e](https://github.com/lazy-orange/nx-workspace-v20/commit/539e19e))
+
+### ❤️ Thank You
+
+- Vitalii Markov @vymarkov
+
 ## 0.1.0 (2024-12-12)
 
 ### 🚀 Features
