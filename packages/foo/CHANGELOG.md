@@ -1,3 +1,13 @@
+## 0.11.0 (2024-12-13)
+
+### 🚀 Features
+
+- update packages/foo/src/index.ts ([1c7b3f8](https://github.com/lazy-orange/nx-workspace-v20/commit/1c7b3f8))
+
+### ❤️ Thank You
+
+- Vitalii Markov @vymarkov
+
 ## 0.10.0 (2024-12-13)
 
 ### 🚀 Features
