@@ -17,7 +17,7 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/foo",
+        "outputPath": "packages/foo/dist",
         "tsConfig": "packages/foo/tsconfig.lib.json",
         "packageJson": "packages/foo/package.json",
         "main": "packages/foo/src/index.ts",
