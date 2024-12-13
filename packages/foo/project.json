@@ -13,6 +13,11 @@
   },
   "tags": [],
   "targets": {
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "{workspaceRoot}/packages/{projectName}/dist"
+      }
+    },
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
