@@ -1,3 +1,13 @@
+## 0.4.0 (2024-12-14)
+
+### 🚀 Features
+
+- update packages/date-time/src/index.ts ([a3c2934](https://github.com/lazy-orange/nx-workspace-v20/commit/a3c2934))
+
+### ❤️ Thank You
+
+- Vitalii Markov @vymarkov
+
 ## 0.3.0 (2024-12-13)
 
 ### 🚀 Features
