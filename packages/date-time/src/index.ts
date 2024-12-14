@@ -1,3 +1,3 @@
 export { dateTime as now } from "./lib/date-time";
 
-export const bar = "foo";
+export const bar = "foo1";
